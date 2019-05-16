@@ -6,6 +6,8 @@
 
 // CODE HERE
 
+var faveColors = ['Blue', 'Purple', 'Black']
+
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstname, superHeroName, homeTown, superPowers, superPowerXP, profileImage. 
 
@@ -23,10 +25,24 @@
 
 // CODE HERE
 
+var me = {
+    firstName: 'Sean',
+    superHeroName: 'Superfluous Sean',
+    homeTown: 'Farmington',
+    superPowers: ['Talking', 'Sleeping', 'Eating'],
+    superPowersXP: Math.floor(Math.random() * 100) + 1,
+    profileImage: https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg
+
+}
+
 //////////////////Step 3////////////////////
 // Create three variables to hold some data off your me object. The first variable should be 'regularName' that is the value of your firstName on the me object. The next variable is 'superName' which is the value of superHeroName on the me object. Last is 'homeTown' which will be the value of homeTown on the me object
 
 // CODE HERE
+
+var regularName = me.firstName
+var superName = me.superHeroName
+var homeTown = me.homeTown
 
 //////////////////Step 4////////////////////
 //Create a function called 'setColor' that takes in one param called arr. Just to make sure that we only ever have three colors, use splice to trim the array to 3 colors. 
@@ -35,10 +51,20 @@
 
 // CODE HERE
 
+function setColor(arr){
+    faveColors.splice()
+}
+
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in arr as a parameter. Loop over the arr param and run a function called createLi(), which will take each item of the array as an agument. The createLi function is a function we created to set the data on the screen. It outside the scope of this project
 
 // CODE HERE
+
+function setPowers(arr){
+   function createLi(arr){
+
+   }
+}
 
 
 //////////////////Step 6////////////////////

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif
+    display: flex;
+    flex: center;
+    
+
+
+}
+
+h1 {
+    color:white;
+    
+
+}
+
+a {
+    color: white;
+    align-items: center
+}
+
+div{
+   
+    
+
+}
